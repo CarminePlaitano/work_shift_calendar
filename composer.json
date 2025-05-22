@@ -1,0 +1,34 @@
+{
+  "name": "carmineplaitano/work-shift-calendar",
+  "description": "Yii2 module to manage work shifts via vkurko calendar. Made for backend applications.",
+  "keywords": ["yii2","module","work","shift","calendar", "vkurko"],
+  "type": "yii2-extension",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Carmine Plaitano",
+      "email": "c.plaitano@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "yiisoft/yii2": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "backend\\modules\\work_shift_calendar\\": ""
+    }
+  },
+  "extra": {
+    "yii\\extension": "backend\\modules\\work_shift_calendar\\Module"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "@php yii migrate --migrationNamespaces=backend\\\\modules\\\\work_shift_calendar\\\\migrations --interactive=0"
+    ],
+    "post-update-cmd": [
+      "@php yii migrate --migrationNamespaces=backend\\\\modules\\\\work_shift_calendar\\\\migrations --interactive=0"
+    ]
+  }
+}
