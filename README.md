@@ -1,2 +1,7 @@
 # work_shift_calendar
-work shift calendar module for yii2
+
+**Work shift calendar module for backend application of any yii2 project.**
+
+**Only Javascript Vanilla.**
+
+**Based on vkurko calendar.**
