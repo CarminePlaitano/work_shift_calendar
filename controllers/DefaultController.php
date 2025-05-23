@@ -14,6 +14,8 @@ use yii\web\Response;
 
 class DefaultController extends Controller
 {
+    public $layout = false;
+
     public function actionIndex(): string
     {
         return $this->render('index');
