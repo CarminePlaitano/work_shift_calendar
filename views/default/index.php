@@ -3,6 +3,11 @@ $this->registerCssFile('https://cdn.jsdelivr.net/npm/@event-calendar/build@4.3.0
 $this->registerJsFile('https://cdn.jsdelivr.net/npm/@event-calendar/build@4.3.0/dist/event-calendar.min.js', [
     'position' => \yii\web\View::POS_HEAD,
 ]);
+
+$this->registerJsFile('@web/js/work-shift-calendar.js', [
+    'depends' => [\yii\web\YiiAsset::class],
+    'position' => \yii\web\View::POS_END,
+]);
 ?>
 <div id="ec"></div>
 <div class="modal fade" id="eventModal" tabindex="-1" aria-labelledby="eventModalLabel" aria-hidden="true">
@@ -52,6 +57,3 @@ $this->registerJsFile('https://cdn.jsdelivr.net/npm/@event-calendar/build@4.3.0/
         </form>
     </div>
 </div>
-<?php
-$this->registerJsFile('@web/js/work-shift-calendar.js');
-?>
