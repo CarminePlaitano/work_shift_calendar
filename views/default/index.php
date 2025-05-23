@@ -48,5 +48,5 @@
     </div>
 </div>
 <?php
-$this->registerJsFile('@web/js/work_shift_calendar.js', ['depends' => [\yii\web\JqueryAsset::class]]);
+$this->registerJsFile('@web/js/work_shift_calendar.js');
 ?>
