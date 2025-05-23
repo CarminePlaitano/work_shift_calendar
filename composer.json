@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "backend\\modules\\work_shift_calendar\\": ""
+      "carmineplaitano\\work_shift_calendar\\": ""
     }
   },
   "extra": {
