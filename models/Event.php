@@ -1,6 +1,6 @@
 <?php
 
-namespace backend\modules\work_shift_calendar\models;
+namespace carmineplaitano\work_shift_calendar\models;
 
 use yii\db\ActiveQuery;
 use yii\db\ActiveRecord;

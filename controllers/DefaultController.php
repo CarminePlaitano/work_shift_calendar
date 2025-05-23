@@ -1,6 +1,6 @@
 <?php
 
-namespace backend\modules\work_shift_calendar\controllers;
+namespace carmineplaitano\work_shift_calendar\controllers;
 
 use backend\modules\work_shift_calendar\models\Employee;
 use backend\modules\work_shift_calendar\models\Event;

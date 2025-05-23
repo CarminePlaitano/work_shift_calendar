@@ -1,5 +1,7 @@
 <?php
 
+namespace carmineplaitano\work_shift_calendar\migrations;
+
 use yii\db\Migration;
 
 class m250521_135910_insert_default_records extends Migration
