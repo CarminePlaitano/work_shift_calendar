@@ -1,4 +1,9 @@
-<h1>Work Shift Calendar</h1>
+<?php
+$this->registerCssFile('https://cdn.jsdelivr.net/npm/@event-calendar/build@4.3.0/dist/event-calendar.min.css');
+$this->registerJsFile('https://cdn.jsdelivr.net/npm/@event-calendar/build@4.3.0/dist/event-calendar.min.js', [
+    'position' => \yii\web\View::POS_HEAD,
+]);
+?>
 <div id="ec"></div>
 <div class="modal fade" id="eventModal" tabindex="-1" aria-labelledby="eventModalLabel" aria-hidden="true">
     <div class="modal-dialog">
