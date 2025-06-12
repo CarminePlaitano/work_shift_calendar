@@ -20,7 +20,7 @@ return [
         'migrate' => [
             'class' => yii\console\controllers\MigrateController::class,
             'migrationPaths' => [
-                '@vendor/carmineplaitano/work_shift_calendar/migrations',
+                'carmineplaitano\work_shift_calendar\migrations',
             ],
         ],
     ],
